@@ -6,5 +6,19 @@
 	<body>
 		<h1>Pierwszy h</h1>
 		<p>Pierwszy p</p>
+
+		<input type="text" id="box1"><br/>
+		<input type="text" id="box2"><br/>
+		<input type="text" id="+"><br/>
+		<input type="button" value="+" onclick="calcSum()"><br/>
+
+		<script>
+			function calcSum(){
+			let box1 = document.getElementById("box1").value;
+			let box2 = document.getElementById("box2").value;
+			let sum = Number(box1) + Number(box2);
+			document.getElementById("+").value = sum;
+			}
+		</script>
 	</body>
 </html>
