@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap");
+body {
+  background-color: #2E0249;
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  color: #F4ABC4;
+  font-size: 5em;
+}
+
+h2 {
+  color: #F4ABC4;
+  font-size: 3em;
+}
+
+p {
+  color: #F4ABC4;
+  font-size: 2em;
+}
