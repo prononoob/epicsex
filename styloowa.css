@@ -102,6 +102,11 @@ p {
   margin-right: 40px;
 }
 
+@media (max-width: 600px) {
+  .flex-child {
+    margin-right: 0px;
+  }
+}
 @media (max-width: 530px) {
   .flex-child {
     display: -webkit-box;
