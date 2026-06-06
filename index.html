@@ -7,16 +7,26 @@
 	<body>
 		<h1>Porter kalkulator</h1>
 		<h2>⚝ ⚝ ⚝ Porter ma 47.5 ml alkoholu ⚝ ⚝ ⚝</h2>
-		<p>Mililitry</p>
-		<input type="text" class="pole-txt" id="porterBox1"><br/>
-		<p>Procent</p>
-		<input type="text" class="pole-txt" id="porterBox2"><br/><br/>
-		<input type="button" class="button" value="Oblicz" onclick="calcSum()">
-		<h2>⚝ Wynik</h2>
-		<p>Ilosc mililitrow</p>
-		<input type="text" class="pole-txt" id="porterWynik" readonly><br/>
-		<p>Ilosc porterow</p>
-		<input type="text" class="pole-txt" id="porterIlosc" readonly><br/>
+		<div class="flex-container">
+			<div class="flex-child">
+				<h2>⚝ Parametry</h2>
+				<p>Mililitry</p>
+				<input type="text" class="pole-txt" id="porterBox1"><br/>
+				<p>Procent</p>
+				<input type="text" class="pole-txt" id="porterBox2"><br/><br/>
+				<input type="button" class="button" value="Oblicz" onclick="calcSum()">
+			</div>
+			<div class="flex-child arrow-porter">
+				<p>-></p>
+			</div>
+			<div class="flex-child">
+				<h2>⚝ Wynik</h2>
+				<p>Ilosc mililitrow</p>
+				<input type="text" class="pole-txt" id="porterWynik" readonly><br/>
+				<p>Ilosc porterow</p>
+				<input type="text" class="pole-txt" id="porterIlosc" readonly><br/>
+			</div>
+		</div>
 
 		<script>
 			function calcSum(){
